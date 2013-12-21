@@ -3,6 +3,7 @@
 #include <pthread.h>
 #include <stdlib.h>
 #include <sys/ipc.h>
+#include <sys/shm.h>
 
 #define NTHREADS 100
 #define MUL 5
